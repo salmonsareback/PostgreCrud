@@ -1,0 +1,15 @@
+package com.adeo.postgreCrud.models;
+
+public class ESC {
+	private Boolean top_esc;
+	private Boolean top_actesc;
+	private Boolean top_escsyst;
+	private Integer num_typesc;
+	private Integer num_modpaiesc;
+	private Integer num_txref;
+	private Float num_txesc;
+	private Integer num_nbjappesc;
+	private Integer num_nbjminesc;
+	private String dat_debesc;
+	private String dat_finesc;
+}

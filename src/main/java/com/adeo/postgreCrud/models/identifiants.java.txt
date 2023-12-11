@@ -1,0 +1,12 @@
+package com.adeo.postgreCrud.models;
+
+public class identifiants {
+	private String id_fisc;
+	private String id_jur;
+	private String id_stat;
+	private String id_acti;
+	private String id_5;
+	private String vil_rcs;
+	private String let_rcs;
+	private String id_rcs;
+}

@@ -1,0 +1,22 @@
+package com.adeo.postgreCrud.models;
+
+import jakarta.persistence.Entity;
+
+@Entity
+public class livraison {
+	private Integer num_cirliv;
+	private Boolean top_act;
+	private Integer num_condliv;
+	private String cod_inco;
+	private Integer cod_unifco;
+	private Float val_fco;
+	private Integer nbr_joustdliv;
+	private Integer nbr_joucdeliv;
+	private String dat_maj;
+	private Float val_fcodev;
+	private Integer nbr_jouliv1;
+	private Integer nbr_jouliv2;
+	private Integer nbr_jouliv3;
+	private Integer nbr_jouliv4;
+	private Integer nbr_jouliv5;
+}

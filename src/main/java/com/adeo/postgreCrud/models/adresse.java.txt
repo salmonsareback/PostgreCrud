@@ -1,0 +1,29 @@
+package com.adeo.postgreCrud.models;
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import org.springframework.data.annotation.Id;
+
+@Entity
+public class adresse {
+	@Id
+	@Column(name = "FOUCOM__id")
+	private Long id;
+	private String cod_typadr;
+	private Integer num_adr;
+	private String lib_adr001;
+	private String lib_adr002;
+	private String lib_adr003;
+	private String cod_pst;
+	private String lib_vil;
+	private Integer num_pay;
+	private String cod_prv;
+	private String lib_prv;
+	private String tel_dom;
+	private String tel_bur;
+	private String tel_gsm;
+	private String fax;
+	private String email;
+	private String tlx;
+}
