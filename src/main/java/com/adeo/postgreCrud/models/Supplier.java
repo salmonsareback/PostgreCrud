@@ -9,10 +9,11 @@ import jakarta.persistence.Id;
 import jakarta.persistence.OneToOne;
 import jakarta.persistence.PrimaryKeyJoinColumn;
 import jakarta.persistence.Table;
+import lombok.Data;
 
 import java.io.Serializable;
-import java.util.List;
 
+@Data
 @Entity
 @Table(name = "supplier")
 public class Supplier implements Serializable {

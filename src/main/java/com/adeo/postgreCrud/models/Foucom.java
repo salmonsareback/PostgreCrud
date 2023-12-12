@@ -1,9 +1,11 @@
 package com.adeo.postgreCrud.models;
 
 import jakarta.persistence.*;
+import lombok.Data;
 
 import java.io.Serializable;
 
+@Data
 @Entity
 @Table(name = "foucom")
 public class Foucom implements Serializable {
@@ -17,7 +19,7 @@ public class Foucom implements Serializable {
 	private String cod_nattie;
 	@Column( columnDefinition = "CHAR(3)")
 	private String cod_typgrp;
-	@Column( columnDefinition = "CHAR(3)")
+	@Column( columnDefinition = "VARCHAR(6)")
 	private String cod_siggrp;
 //	private String cod_etaexp;
 	private Integer num_cp;
@@ -52,6 +54,6 @@ public class Foucom implements Serializable {
 	private Boolean top_cu;
 	private Float tx_remise_cu;
 
-	@OneToOne(mappedBy = "Foucom", cascade = CascadeType.ALL)
-	private Supplier supplier;
+//	@OneToOne(mappedBy = "Foucom", cascade = CascadeType.ALL)
+//	private Supplier supplier;
 }
